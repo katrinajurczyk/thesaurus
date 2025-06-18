@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+  /* padding-left: 5vw;
+  padding-right: 5vw;
+  padding-bottom: 5vw; */
+}
+
+form {
+  display: flex;
+  /* align-content: center; */
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+ul {
+  text-align: left;
+  justify-self: center;
+  column-count: 3;
+  column-gap: 100px;
+  max-width: 80%;
+  padding: 0px;
+}
+
+li {
+  padding: 0vw 0vw 1vw 0vw;
+  /* margin: 0px 0px 0px 10vw; */
+}
+
+.search-header {
+  position: sticky;
+  top: 0px;
+  padding: 5vw;
+  background-color: #eeeeee;
+}
+
+h2 {
+  margin-top: 0px;
+}
